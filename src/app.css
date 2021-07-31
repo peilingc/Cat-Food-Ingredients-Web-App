@@ -1,0 +1,13 @@
+.light {
+  background: #fff6c0;
+  color: rgb(110, 63, 0);
+  min-height: 820px;
+}
+.dark {
+  background: #265F89;
+  color:aliceblue;
+  min-height: 820px;
+}
+
+
+

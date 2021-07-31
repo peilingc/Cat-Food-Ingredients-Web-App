@@ -1,0 +1,28 @@
+.logout {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logout-button {
+    margin-left: 10px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px #999;
+    transition-duration: 0.5s;
+    display: inline-block;
+}
+  
+.logout-button:hover {
+    background-color: #f7b95c; 
+    color: white;
+}
+  
+.logout-button:active {
+    background-color: #f7b95c;
+    box-shadow: 0 1px #666;
+    transform: translateY(7px);
+}

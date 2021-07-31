@@ -1,0 +1,86 @@
+.add-pet-hidden {
+    display: none;
+}
+
+.my-pets-main-page-hidden {
+    display: none;
+}
+
+.my-pets-details-page-hidden {
+    display: none;
+}
+
+.add-button {
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px #999;
+    transition-duration: 0.5s;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+  
+.add-button:hover {
+    background-color: #f7b95c; 
+    color: white;
+}
+  
+.add-button:active {
+    background-color: #f7b95c;
+    box-shadow: 0 1px #666;
+    transform: translateY(7px);
+}
+
+.add-pet {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    width:100px;
+    margin-right: 20px;
+}
+
+.add {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px #999;
+    transition-duration: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.back {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px #999;
+    transition-duration: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.petList{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 50px;
+}
+

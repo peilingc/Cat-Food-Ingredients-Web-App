@@ -1,0 +1,125 @@
+.meat-list-hidden {
+    display: none;
+}
+
+.vegetables-and-fruits-list-hidden {
+    display: none;
+}
+
+.grains-list-hidden {
+    display: none;
+}
+
+.supplements-list-hidden {
+    display: none;
+}
+
+.popupCloseButton {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
+
+.helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+
+.popup > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+}
+
+.item-hide .details {
+    display: none;
+}
+
+.item-hide .hide {
+    display: none;
+}
+
+.popup-hidden {
+    display: none;
+}
+
+.item-name {
+    cursor: pointer;
+}
+
+.sections button {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    background-color: transparent;
+}
+
+.sections button:hover {
+    background-color: #f7b95c;
+    color: white;
+}
+  
+.sections button:focus {
+    background-color: #f7b95c;
+    box-shadow: 0 1px #666;
+}
+
+.like {
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dislike {
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hide {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff6c0;
+}
+
+.hide:hover{
+    background-color: #f7b95c; 
+    color: white;
+}
